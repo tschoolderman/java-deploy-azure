@@ -4,8 +4,8 @@
 name: Build and deploy JAR app to Azure Web App - javadeploynaarazure
 
 env:
-      USERNAME: ${{ USERNAME }}
-      WW: ${{ WW }}
+      USERNAME: ${{ secrets.USERNAME }}
+      WW: ${{ secrets.WW }}
 
 on:
   push:
